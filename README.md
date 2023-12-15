@@ -22,7 +22,7 @@ To set up the RealTimeRayTracer_CUDA, follow these steps:
 2. using Cmake to build the project
 
 ## Demo
-Check out our [YouTube demo](https://youtu.be/49SIkR3sGUk) to see RealTimeRayTracer_CUDA in action.
+Check out our [![Watch the video](url-of-the-thumbnail)](https://studio.youtube.com/video/49SIkR3sGUk) to see RealTimeRayTracer_CUDA in action.
 
 ## Challenges and Limitations
 - **BVH Implementation**: Implementing the BVH node in CUDA is complex, and it's currently a work-in-progress.
@@ -39,4 +39,7 @@ Support four shading model
 
 Denoise 
 - **Temporal** : a simple blend of current frame and last frame was implemented in order to denoise
+
+Loading Mesh
+- **Load_Triangle** : using Load_triangle.hpp to load custom .obj meshes. However, it's need to init on host constructor and then copy the memory to the device memory. 
 
