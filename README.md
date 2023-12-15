@@ -22,7 +22,7 @@ To set up the RealTimeRayTracer_CUDA, follow these steps:
 2. using Cmake to build the project
 
 ## Demo
-Check the [YouTube demo]([youtube-link-here](https://www.youtube.com/video/49SIkR3sGUk)) to see RealTimeRayTracer_CUDA in action.
+Check the [YouTube demo](https://www.youtube.com/video/49SIkR3sGUk) to see RealTimeRayTracer_CUDA in action.
 
 ## Challenges and Limitations
 - **BVH Implementation**: Implementing the BVH node in CUDA is complex, and it's currently a work-in-progress.
